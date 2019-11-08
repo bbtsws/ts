@@ -1,0 +1,14 @@
+{
+  "name": "contrived_class",
+  "version": "1.0.0",
+  "description": "// Challenge: write the type declarations for contrivedClass.js so that index.ts will compile correctly.",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "main": "./contrivedClass.js",
+  "types": "./contrivedClass.d.ts",
+  "license": "ISC"
+}

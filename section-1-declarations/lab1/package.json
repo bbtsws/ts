@@ -1,0 +1,19 @@
+{
+  "name": "typescript-workshop-2019",
+  "version": "1.0.0",
+  "description": "Workshop for typescript 2019",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bbgithub.dev.bloomberg.com:web-frontend-guild/typescript-workshop-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}

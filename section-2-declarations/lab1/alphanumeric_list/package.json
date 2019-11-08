@@ -1,0 +1,13 @@
+{
+  "name": "alphanumeric_list",
+  "version": "1.0.0",
+  "description": "// Challenge: write the type declarations for alphanumericList.js so that index.ts will compile correctly.",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "main": "./alphanumericList",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "// Challenge: write the type declarations for contrivedClass.js so that index.ts will compile correctly.",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
