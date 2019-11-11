@@ -22,7 +22,9 @@ Install from: https://code.visualstudio.com/
  node --version # should be 9 or higher
  tsc --version # should be 3.5 or higher
  git --version # any version
- code --version # latest version recommended
+ open -a "Visual Studio Code" # and then check the version under "About Visual Studio Code" under "Code"
+ # or for Windows
+ code --version # latest version 1.39 recommended
 ```
 
 
