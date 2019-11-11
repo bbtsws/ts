@@ -4,7 +4,7 @@ In this lab we will add two numbers with the "value" system in TypeScript.
 
 # Basic concepts:
 
-## Generics applied to an object property value
+## Object property value type constraint
 ```ts
 type T = {something: number};
 const validT: T = {something: 1}; // valid
