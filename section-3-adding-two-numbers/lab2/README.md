@@ -18,7 +18,7 @@ Define an object A, which property has a value of type B, which extends number.
 ```ts
 type T<A> = A extends boolean? number : string;
 type NN = T<boolean>; // this results in "number"
-type SS = T<string>; // this results in "string";
+type SS = T<Object>; // this results in "string";
 const nn1: NN = 1; // valid
 const nn2: NN = "x"; // invalid
 const ss1: SS = "a"; // valid
