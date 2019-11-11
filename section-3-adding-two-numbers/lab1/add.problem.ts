@@ -8,32 +8,32 @@ type Pos = undefined;
 // Hint: how did we define Numbers in the previous lab?
 type Num = undefined;
 
-const zero = "zero";
+const zero: undefined = "zero";
 
 // One is the number after zero
-const one = { prev: zero };
+const one: undefined = { prev: zero };
 
 // @TODO: How do we define two?
-const two = undefined;
+const two: undefined = undefined;
 
 // @TODO: How do we define the positive numbers?
 // Hint: zero us not a positive number
-const isPositive = (x: any) => undefined;
+const isPositive = (x: undefined) => undefined;
 
 // @TODO: How do we define plus 1?
 // Hint: how did we define "one" based on "zero"?
-const plus1 = (x: any) => undefined;
+const plus1 = (x: undefined) => undefined;
 
 // @TODO: How do we define minus 1? 
 // Hint: how can we get "one" from "two"?
-const minus1 = (x: any) => undefined;
+const minus1 = (x: undefined) => undefined;
 
 // @TODO: Finally, how can we add two arbitrary numbers?
 // Hint: "a + b = (a + 1) + (b - 1)"
-const add = (x: any, y: any): any =>
+const add = (x: undefined, y: undefined): undefined =>
 	undefined;
 
-const eq = (x: any, y: any): any =>
+const eq = (x: undefined, y: undefined): undefined =>
 	x == zero && y == zero ? true :
 		x == zero || y == zero ? false :
 			eq(minus1(x), minus1(y));
