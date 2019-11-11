@@ -29,7 +29,7 @@ With the ```A extends B ? X : Y``` syntax, we can define conditional types that 
 ## Type resolution
 
 ```ts
-type A = {"something" = boolean};
+type A = {"something": boolean};
 type B = A["something"]; // this results in "boolean"
 const B: B = true; // valid
 const V: B = 1; // invalid
