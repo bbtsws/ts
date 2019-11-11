@@ -6,9 +6,9 @@ In this lab we will add two numbers with the "value" system in TypeScript.
 
 ```ts
 type T = {something: number};
-const validT = {something: 1};
-const invalidA = {abc: 1}; // invalid: the "something" property is not found
-const invalidB = {something: "abc"}; // invalid: the property value is not a number
+const validT: T = {something: 1}; // valid
+const invalidA: T = {abc: 1}; // invalid: the "something" property is not found
+const invalidB: T = {something: "abc"}; // invalid: the property value is not a number
 ```
 This defines a type T, which is an object that has a property called `something`, which is of type `number`.
 
@@ -19,8 +19,8 @@ This defines a type `AB` that can be either an `A` or a `B`.
 
 ```ts
 type T = "a text";
-const a: T = "a text"; // this is valid
-const b: T = "something else"; // this is invalid
+const a: T = "a text"; // valid
+const b: T = "something else"; // invalid: "something else" doesn't match the string literal type.
 ```
 "A string literal type is a type whose expected value is a string with textual contents equal to that of the string literal type."
 
