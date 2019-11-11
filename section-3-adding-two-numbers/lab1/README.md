@@ -12,17 +12,20 @@ const invalidB: T = {something: "abc"}; // invalid: the property value is not a 
 ```
 This defines a type T, which is an object that has a property called `something`, which is of type `number`.
 
+## Union Types
+
 ```ts
 type AB = A | B;
 ```
 This defines a type `AB` that can be either an `A` or a `B`.
 
+## String Literal Types
 ```ts
 type T = "a text";
 const a: T = "a text"; // valid
 const b: T = "something else"; // invalid: "something else" doesn't match the string literal type.
 ```
-"A string literal type is a type whose expected value is a string with textual contents equal to that of the string literal type."
+"A type whose expected value is a string with textual contents equal to that of the string literal type."
 
 
 
