@@ -3,8 +3,8 @@
 type Alphanumeric = number | string;
 
 export interface IAlphanumericList {
-    public item: Alphanumeric;
-    public next: IAlphanumericList;
+    item: Alphanumeric;
+    next: IAlphanumericList;
 }
 
 export default class AlphanumericList implements IAlphanumericList {
