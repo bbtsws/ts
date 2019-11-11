@@ -6,6 +6,9 @@ In this lab we will add two numbers with the "value" system in TypeScript.
 
 ```ts
 type T = {something: number};
+const validT = {something: 1};
+const invalidA = {abc: 1}; // invalid: the "something" property is not found
+const invalidB = {something: "abc"}; // invalid: the property value is not a number
 ```
 This defines a type T, which is an object that has a property called `something`, which is of type `number`.
 
