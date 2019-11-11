@@ -11,17 +11,17 @@ The TypeScript type system is very powerful and dynamic.  It allows you to go fr
 JavaScript developers with TypeScript skill levels ranging from beginner to competent.
 
 
-## Contents
+## Sections
 
-### [Primitive Types](section-1-primitives)
+### 1. [Primitive Types](section-1-primitives)
 * Couple of lectured exercises in the TypeScript Playground (guided / instruction / teaching)
 * Self-guided exercises on Playground - we could walk around
 
-### [Type declarations](section-2-declarations)
+### 2. [Type declarations](section-2-declarations)
 * Have a checklist of setup steps?
 * Go through compiling
 
-### [Add Two Numbers](section-3-adding-two-numbers)
+### 3. [Add Two Numbers](section-3-adding-two-numbers)
 * These start to walk through the concepts, building up to doing arithmetic
 
 ## Presenters
