@@ -1,9 +1,9 @@
 "use strict";
 
-export interface IContrivedNode<T = any> {
+export interface IContrivedNode {
 }
 
-export default class ContrivedNode<T> implements IContrivedNode<T> {
+export default class ContrivedNode implements IContrivedNode {
     constructor(item, next) {
         this.item;
         this.next;

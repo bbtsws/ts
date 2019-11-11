@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "main": "./contrivedClass.js",
-  "types": "./contrivedClass.d.ts",
+  "main": "./contrivedClass",
   "license": "ISC"
 }
