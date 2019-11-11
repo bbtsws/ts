@@ -6,9 +6,9 @@ This step takes us a bit further along the way towards using TypeScript types to
 
 ## Generic constraints
 ```ts
-type A<B extends number> = {propertyName: B};
-type N = A<number>;  // valid
-type P = A<string> = // invalid
+type A<B extends string> = {propertyName: B};
+type N = A<string>;  // valid
+type P = A<number> = // invalid
 ```
 Define an object A, which property has a value of type B, which extends number.
 
@@ -16,7 +16,7 @@ Define an object A, which property has a value of type B, which extends number.
 ## Conditional type checks
 
 ```ts
-type T<A> = A extends boolean? number : string;
+type T<A> = A extends number? number : string;
 type NN = T<boolean>; // this results in "number"
 type SS = T<Object>; // this results in "string";
 const nn1: NN = 1; // valid
