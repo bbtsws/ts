@@ -29,7 +29,9 @@ const plus1 = (x: Num): Pos => undefined;
 const minus1 = (x: Pos): Num => undefined;
 
 // @TODO: Finally, how can we add two arbitrary numbers?
-// Hint: "a + b = (a + 1) + (b - 1)"
+// Hint: 
+// "a + b = (a + 1) + (b - 1)"
+// "c + 0 = c"
 const add = (x: undefined, y: undefined): undefined =>
 	undefined;
 
