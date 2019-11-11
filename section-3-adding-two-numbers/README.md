@@ -22,5 +22,5 @@ But we are not allowed to use +, -, \*, /, \*\*, <<, or >>
 ## [lab2 - adding two numbers with types](lab2)
 
 ### What you'll learn
-- How to define a number using an infinite number of types
-- How to add those two numbers in the world of types
+- How to define positive numbers, where each number has its own type
+- How to add two types
