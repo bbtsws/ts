@@ -14,15 +14,13 @@ JavaScript developers with TypeScript skill levels ranging from beginner to comp
 ## Sections
 
 ### 1. [Primitive Types](section-1-primitives)
-* Couple of lectured exercises in the TypeScript Playground (guided / instruction / teaching)
-* Self-guided exercises on Playground - we could walk around
+Get started with TypeScript types starting with the basics.  We'll introduce you to TypeScript Playground.
 
 ### 2. [Type declarations](section-2-declarations)
-* Have a checklist of setup steps?
-* Go through compiling
+Start defining and using your own Types.
 
 ### 3. [Add Two Numbers](section-3-adding-two-numbers)
-* These start to walk through the concepts, building up to doing arithmetic
+Now let's push the boundaries by creating a new universe of positive numbers and define the addition operation in this new universe.  Then repeat the exercise but using TypeScript's type system.
 
 ## Presenters
 * Albert Lash IV
