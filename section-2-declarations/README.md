@@ -1,4 +1,6 @@
-# Step 2 Declarations
+# Section 2: Declarations
+
+## Introduction
 
 This section contains some labs for self guided experimenting with declarations to get a feeling
 for how they are used.
