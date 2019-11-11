@@ -1,4 +1,6 @@
-# Introduction Step
+# Primitives
+
+## Introduction
 
 In this part of the workshop, we'll start with some basic exercises to introduce how we'll run this workshop
 and the types of exercises we'll be working on.
