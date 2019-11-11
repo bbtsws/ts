@@ -1,15 +1,25 @@
 const zero = "zero";
 
-// @TODO: define function
+// One is the number after zero
+const one = { prev: zero };
+
+// @TODO: How do we define two?
+const two = undefined;
+
+// @TODO: How do we define the positive numbers?
+// Hint: zero us not a positive number
 const isPositive = (x: any) => undefined;
 
-// @TODO: define function
+// @TODO: How do we define plus 1?
+// Hint: how did we define "one" based on "zero"?
 const plus1 = (x: any) => undefined;
 
-// @TODO: define function
+// @TODO: How do we define minus 1? 
+// Hint: how can we get "one" from "two"?
 const minus1 = (x: any) => undefined;
 
-// @TODO: define function
+// @TODO: Finally, how can we add two arbitrary numbers?
+// Hint: "a + b = (a + 1) + (b - 1)"
 const add = (x: any, y: any): any =>
 	undefined;
 
@@ -17,11 +27,6 @@ const eq = (x: any, y: any): any =>
 	x == zero && y == zero ? true :
 		x == zero || y == zero ? false :
 			eq(minus1(x), minus1(y));
-
-// Different ways of building the numbers
-const one = plus1(zero);
-const two = { prev: one };
-
 
 const isOneEqualsOnePlusZero = eq(one, add(one, zero));
 const isTwoEqualsOnePlusOne = eq(two, add(one, one));
