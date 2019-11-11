@@ -5,11 +5,6 @@ This step takes us a bit further along the way towards using TypeScript types to
 # Basic concepts:
 
 ```ts
-type S = {something: number}
-```
-This defines a type S, which is an object that has a property called `something`, which is of type `number`.
-
-```ts
 type A<B extends C> = {propertyName: B};
 ```
 Define an object A, which property has a value of type B, which extends C.
