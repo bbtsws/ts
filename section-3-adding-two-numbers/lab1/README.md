@@ -9,6 +9,11 @@ type T = {something: number};
 ```
 This defines a type T, which is an object that has a property called `something`, which is of type `number`.
 
+```ts
+type AB = A | B;
+```
+This defines a type `AB` that can be either an `A` or a `B`.
+
 ## Instructions
 
 1. Copy in Playground the contents of [`add.problem.ts`](add.problem.ts).
