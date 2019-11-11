@@ -1,20 +1,26 @@
-### Goals of this section
+# Section 3: How to add two numbers
 
-* Gain an analogy that makes type-level TS familiar
-* Gain insight into what is easy / hard / impossible
-
-### What we'll do
-* We're going to do a math problem
-	- in the world of values (things that can be assigned to variables)
-	- in the world of types (things that describe values, help with completions via intellisense or similar, and get erased when TS is compiled to JS)
-* Not allowed to use +, -, \*, /, \*\*, <<, or >>
+## Introduction 
+* We're going to implement addition of two numbers in:
+	- the world of values (things that can be assigned to variables)
+	- the world of types (things that describe values)
+	
+But we are not allowed to use +, -, \*, /, \*\*, <<, or >>
 
 
 ### What's the point?
 * This is not useful in itself
 * It's useful for understanding TS
  
-### Labs
-- [lab1 - adding two numbers with values](lab1)
-- [lab2 - adding two numbers with types](lab2)
 
+## [lab1 - adding two numbers with values](lab1)
+
+### What you'll learn
+- How to define a number using JS objects
+- How to add those two numbers in the world of values
+
+## [lab2 - adding two numbers with types](lab2)
+
+### What you'll learn
+- How to define a number using an infinite number of types
+- How to add those two numbers in the world of types
