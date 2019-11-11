@@ -25,7 +25,7 @@ Install from: https://code.visualstudio.com/
  # for MacOS X (if you haven't added to your path):
  open -a "Visual Studio Code" # and then check the version under "About Visual Studio Code" under "Code"
  # For Windows or Linux:
- code --version # latest version 1.39 recommended
+ code --version # 1.39+ recommended
 ```
 
 
