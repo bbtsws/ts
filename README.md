@@ -13,7 +13,7 @@ JavaScript developers with TypeScript skill levels ranging from beginner to comp
 
 ## Contents
 
-### [Primitive Types](section-1-declarations)
+### [Primitive Types](section-1-primitives)
 * Couple of lectured exercises in the TypeScript Playground (guided / instruction / teaching)
 * Self-guided exercises on Playground - we could walk around
 
