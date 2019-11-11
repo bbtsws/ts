@@ -14,6 +14,15 @@ type AB = A | B;
 ```
 This defines a type `AB` that can be either an `A` or a `B`.
 
+```ts
+type T = "a text";
+const a: T = "a text"; // this is valid
+const b: T = "something else"; // this is invalid
+```
+"A string literal type is a type whose expected value is a string with textual contents equal to that of the string literal type."
+
+
+
 ## Instructions
 
 1. Copy in Playground the contents of [`add.problem.ts`](add.problem.ts).
