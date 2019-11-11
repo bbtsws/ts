@@ -11,7 +11,7 @@ type Num = undefined;
 const zero: undefined = "zero";
 
 // One is the number after zero
-const one: undefined = { prev: zero };
+const one: undefined = { "prev": zero };
 
 // @TODO: How do we define two?
 const two: undefined = undefined;
