@@ -1,3 +1,13 @@
+// Let's do types now.
+type Zero = "zero";
+
+// @TODO: How can we define positive numbers?
+// Hint: look at the definition of "one" in line 14.
+type Pos = undefined;
+// @TODO: How can we define "numbers" as the union of Zero and all Positives?
+// Hint: how did we define Numbers in the previous lab?
+type Num = undefined;
+
 const zero = "zero";
 
 // One is the number after zero
