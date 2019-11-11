@@ -5,7 +5,7 @@ In this lab we will add two numbers with the "value" system in TypeScript.
 # Basic concepts:
 
 ```ts
-type T = {something: number}
+type T = {something: number};
 ```
 This defines a type T, which is an object that has a property called `something`, which is of type `number`.
 
