@@ -1,7 +1,7 @@
 // Let's guarantee the results
 
 type Zero = "zero";
-type Pos = { prev: Num };
+type Pos = { "prev": Num };
 type Num = Zero | Pos;
 
 const zero: Zero = "zero";
