@@ -1,4 +1,4 @@
-# Primitives
+# Section 1: Primitives
 
 ## Introduction
 
