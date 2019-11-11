@@ -16,7 +16,12 @@ This defines a type T, which is an object that has a property called `something`
 ## Union Types
 
 ```ts
-type AB = A | B;
+
+type AB = number | string;
+let a: AB = 1; // valid
+let b: AB = "hello"; // valid
+let c: AB = true; // invalid
+
 ```
 This defines a type `AB` that can be either an `A` or a `B`.
 
