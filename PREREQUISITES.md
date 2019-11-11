@@ -3,7 +3,7 @@
 ## Node.js 9+
 Download from: https://nodejs.org/en/
 
-## TSC (3.6+)
+## TSC 3.6+
 Install:
 ```bash
 $ npm install -g typescript
