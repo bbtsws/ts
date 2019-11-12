@@ -17,7 +17,11 @@ https://www.typescriptlang.org/play/
 
 ## Summary
 ### Goal
-The purpose of this workshop is to gain insight into TypeScript and how it works. This is not a tutorial on TypeScript, and what you'll learn here is not practical in of itself. The goal for us today is to learn more about what TypeScript and understand what it is capable of.
+The purpose of this workshop is to gain insight into TypeScript and how it works.
+
+**This is not a tutorial on TypeScript**.
+
+What you'll learn here is not practical in of itself. The goal for us today is to learn more about what TypeScript and understand what it is capable of.
 
 In this workshop, you will:
 
@@ -25,11 +29,11 @@ In this workshop, you will:
 2. Write type definitions via interfaces.
 3. Push the limits of TypeScript by defining types with a recursive definition.
 
-The first two sections build up to the activities in section three.
+The first two sections build up to the activities in section three, and can be skipped by experienced users of TypeScript.
 
 ## Sections
 ### 1. [Basics](section-1-primitives)
-Get started with TypeScript types starting with the basics.  We'll introduce you to TypeScript Playground.
+Get started with the basics of TypeScript Types.
 
 ### 2. [Type declarations](section-2-declarations)
 Start defining and using your own Types.
