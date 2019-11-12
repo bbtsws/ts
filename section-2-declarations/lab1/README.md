@@ -1,12 +1,12 @@
-### Lab 1
+# Lab 1
 
 This lab demonstrates union types and give experience with reading typescript errors and writing interfaces and type definitions.
 
-The steps for completing this lab are:
+## Instructions
 
-1. Install dependencies `npm install`, __or__ skip if Typescript is installed globally
+1. Install dependencies `npm install`, __or__ skip if TypeScript is installed globally
 2. Build project `npm run build`
-3. Read any typescript errors from build
+3. Read any TypeScript errors from build
 4. Update <alphanumeric_list/alphanumbericList.ts> to fix type errors
 5. Return to step 2. and continue until all 
 
