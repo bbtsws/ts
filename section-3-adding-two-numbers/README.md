@@ -7,10 +7,6 @@
 	
 But we are not allowed to use `+`, `-`, `*`, `/`, `**`, `<<`, or `>>`.
 
-## Numbers Universe
-
-Previously, we defined numbers as ```"zero" | { "prev": number }```.  Now, each number will have its own unique type.  So, one, two, three, four, etc will have have its own unique type.
-
 ### What's the point?
 * This is not useful in itself
 * It's useful for understanding TS
