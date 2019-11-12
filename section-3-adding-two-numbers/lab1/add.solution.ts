@@ -1,7 +1,7 @@
 // Let's guarantee the results
 
 type Zero = "zero";
-type Pos = { "prev": Num };
+type Pos = { prev: Num };
 type Num = Zero | Pos;
 
 const zero: Zero = "zero";
@@ -10,7 +10,7 @@ const zero: Zero = "zero";
 const isPositive = (x: Num): x is Pos => x != zero;
 const isZero = (x: Num): x is Zero => x == zero;
 
-const plus1 = (x: Num) => ({ "prev": x });
+const plus1 = (x: Num) => ({ prev: x });
 const minus1 = (x: Pos) => x.prev;
 
 // and we're using the type guard here
