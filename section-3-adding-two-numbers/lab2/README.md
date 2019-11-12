@@ -41,6 +41,10 @@ const c: B = true; // valid
 const d: B = 1; // invalid: d is a boolean
 ```
 
+## Numbers Universe
+
+Previously, we defined numbers as ```"zero" | { "prev": number }```.  Now, each number will have its own unique type.  So, one, two, three, four, etc will have have its own unique type.  We will use a function to generate these types.
+
 ## Instructions
 
 1. Copy [`add.types.problem.ts`](add.types.problem.ts) into the Playground.
