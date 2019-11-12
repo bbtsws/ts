@@ -1,7 +1,7 @@
 # How to Add Two Numbers in TypeScript
 NodeConf.eu 2019 TypeScript Workshop
 
-# http://git.io/Jez1u
+# Open https://git.io/Jez1u
 
 
 ## Goal
