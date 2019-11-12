@@ -1,8 +1,6 @@
 # How to Add Two Numbers in TypeScript
+# https://git.io/Jez1u
 NodeConf.eu 2019 TypeScript Workshop
-
-# Open https://git.io/Jez1u
-
 
 ## Goal
 The TypeScript type system is very powerful and dynamic.  It allows you to go from very simple types to very advanced types with a very low adoption curve.  We go from how to define variables with primitives to how to define types that have a recursive definition.
