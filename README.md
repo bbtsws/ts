@@ -1,6 +1,7 @@
 # How to Add Two Numbers in TypeScript
 NodeConf.eu 2019 TypeScript Workshop
 
+# http://git.io/Jez1u
 
 
 ## Goal
@@ -12,6 +13,13 @@ JavaScript developers with TypeScript skill levels ranging from beginner to comp
 
 
 ## Sections
+
+### Pre-requisites
+
+Playground:
+https://www.typescriptlang.org/play/
+
+[Node.js, TSC, Visual Studio Code](PREREQUISITES.md)
 
 ### 1. [Primitive Types](section-1-primitives)
 Get started with TypeScript types starting with the basics.  We'll introduce you to TypeScript Playground.
