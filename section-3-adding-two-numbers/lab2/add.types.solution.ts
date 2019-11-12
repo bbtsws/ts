@@ -4,7 +4,7 @@ type Num = Zero | Pos;
 
 type One = { "prev": Zero };
 type Two = { "prev": One };
-type Plus1<T extends Num> = { prev: T };
+type Plus1<T extends Num> = { "prev": T };
 type Minus1<T extends Pos> = T["prev"]
 
 type Equals<T1, T2> =
