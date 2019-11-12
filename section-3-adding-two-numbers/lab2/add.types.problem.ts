@@ -1,5 +1,5 @@
 type Zero = "zero";
-type One = { "prev": Zero };
+type One = { prev: Zero };
 
 // @TODO: Let's define two.
 // Hint: how did we define one?
