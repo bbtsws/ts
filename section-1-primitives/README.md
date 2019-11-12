@@ -10,24 +10,15 @@ We'll walk through this one with you all, but later on we'll be available as you
 
 ## [Lab 1](lab1)
 
-### What you'll learn
-How to use:
+### What you'll be working with
 - primitive types
 - type inference
 - type checks
 
 ## [Lab 2](lab2)
 
-### What you'll learn
+### What you'll be working with
 - Functions as types
 - Inferred return types
 - Inferred return types using composition
 - Object shape as return type
-
-## [Lab 3](lab3)
-
-### What you'll learn
-How to define or use:
-- Interface
-- Class
-- Type support by IDEs
