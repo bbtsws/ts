@@ -34,6 +34,16 @@ const b: T = "something else"; // invalid: "something else" doesn't match the st
 "A type whose expected value is a string with textual contents equal to that of the string literal type."
 
 
+# Numbers Universe
+
+Our numbers are not decimals or binaries.  They're objects.  This is how we define our numbers:
+```ts
+const zero = "zero";
+const one = {"prev": zero};
+const two = {"prev": one};
+// or alternatively
+const two = {"prev": {"prev": "zero"}};
+```
 
 ## Instructions
 

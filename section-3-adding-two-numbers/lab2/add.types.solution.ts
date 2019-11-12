@@ -1,10 +1,10 @@
 type Zero = "zero";
-type Pos = { prev: Num };
+type Pos = { "prev": Num };
 type Num = Zero | Pos;
 
-type One = { prev: Zero };
-type Two = { prev: One };
-type Plus1<T extends Num> = { prev: T };
+type One = { "prev": Zero };
+type Two = { "prev": One };
+type Plus1<T extends Num> = { "prev": T };
 type Minus1<T extends Pos> = T["prev"]
 
 type Equals<T1, T2> =
