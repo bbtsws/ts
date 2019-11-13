@@ -2,25 +2,38 @@
 # https://git.io/Jez1u
 NodeConf.eu 2019 TypeScript Workshop
 
-## Goal
-The TypeScript type system is very powerful and dynamic.  It allows you to go from very simple types to very advanced types with a very low adoption curve.  We go from how to define variables with primitives to how to define types that have a recursive definition.
+## Introduction
+The TypeScript type system is very powerful and dynamic.  It allows you to go from very simple types to very advanced types with a very low adoption curve.
 
 ## Target Audience
-
 JavaScript developers with TypeScript skill levels ranging from beginner to competent.
 
 
-## Sections
-
 ### Pre-requisites
-
 Playground:
 https://www.typescriptlang.org/play/
 
 [Node.js, TSC, Visual Studio Code](PREREQUISITES.md)
 
-### 1. [Primitive Types](section-1-primitives)
-Get started with TypeScript types starting with the basics.  We'll introduce you to TypeScript Playground.
+## Summary
+### Goal
+The purpose of this workshop is to gain unique insight into TypeScript and how it works.
+
+**This is not a tutorial on TypeScript**.
+
+What you'll learn here is not practical in of itself. The goal for us today is to learn more about what TypeScript and understand what it is capable of.
+
+In this workshop, you will:
+
+1. Set basic variables with simple types.
+2. Write type definitions via interfaces.
+3. Push the limits of TypeScript by defining types with a recursive definition. 
+
+The first two sections build up to the activities in section three, and can be skipped by experienced users of TypeScript. Most users will never perform tasks like those in section three, so this is an purely an exercise in exploring TypeScript.
+
+## Sections
+### 1. [Basics](section-1-primitives)
+Get started with the basics of TypeScript Types.
 
 ### 2. [Type declarations](section-2-declarations)
 Start defining and using your own Types.

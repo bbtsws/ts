@@ -1,20 +1,28 @@
-import ContrivedClass, {ContrivedObject} from './contrivedClass';
+import Thing2, {Thing1} from './thing';
 
-const co: ContrivedObject = {numberField: 2,  stringField: 'field', optionalField: true};
+const co: Thing1 = {numberField: 2,  stringField: 'field', optionalField: true};
 
-const cc = new ContrivedClass(1, 'str', co);
+const cc = new Thing2(1, 'str', co);
 console.log(`number: ${cc.num}`);
 console.log(`string: ${cc.str}`);
 console.log(`private: ${cc.getPriv()}`);
 
-let val: ContrivedClass = null;
-// ...
+// initialize a variable of type Thing2, but do not define it
+let val: Thing2 = null;
+
+// can be set to an existing value of type Thing2
 val = cc;
-// displays use of optional ? flag
-val = new ContrivedClass(2, '20', {numberField: 10, stringField: ''});
-console.log(val);
-val = ContrivedClass.createContrivedClass(3, '30');
+
+// again set val to a brand new Thing2 instance, and displays use of optional ? flag
+val = new Thing2(2, '20', {numberField: 10, stringField: ''});
 console.log(val);
 
+// static method
+val = Thing2.createThing2(3, '30');
+console.log(val);
+
+// cannot set val to a non-Thing1
+// val = {numberField: 2, stringField: 'field'};
+
 // try to violate interface signature:
-//let val3 = new ContrivedClass(2, '20', {numberField: 1});
+//let val3 = new Thing2(2, '20', {numberField: 1});
