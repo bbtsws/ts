@@ -42,9 +42,9 @@ Start defining and using your own Types.
 Now let's push the boundaries by creating a new universe of positive numbers and define the addition operation in this new universe.  Then repeat the exercise but using TypeScript's type system.
 
 ## Presenters
-* Albert Lash IV
+* [Albert Lash IV](https://github.com/albertlincoln)
 * Philip Cavaco
-* Ricardo Le&oacute;n
+* [Ricardo Le&oacute;n](https://www.linkedin.com/in/rleon)
 
 __Special Thanks__
 Maxwell Heiber for inspiring this workshop with his awesome presentation of these same materials!
