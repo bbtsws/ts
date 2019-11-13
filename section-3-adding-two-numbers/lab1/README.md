@@ -49,10 +49,10 @@ const two = {"prev": {"prev": "zero"}};
 ```
 
 And we want to define these functions that is defined for this universe:
--`add`
--`plus one`
--`minus one` for positive numbers
--`equality`
+- `add`
+- `plus one`
+- `minus one` for positive numbers
+- `equality`
 
 
 ## Instructions
