@@ -1,8 +1,8 @@
 "use strict";
 
 export interface IContrivedNode<T = string> {
-    public item: T;
-    public next: IContrivedNode<T>;
+    item: T;
+    next: IContrivedNode<T>;
 }
 
 export default class ContrivedNode<T = any> implements IContrivedNode<T> {
