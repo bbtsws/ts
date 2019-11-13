@@ -50,3 +50,6 @@ type Res3 = Equals<Plus1<Two>, Add<One, One>>; // Two++ = One + One
 // const four: Add<Two, Two> = { prev: three };
 
 // const five: Add<Two, Plus1<Two>> = { prev: four };
+
+// Invalid:
+// const t: Res1 = false;
