@@ -7,9 +7,11 @@ In this lab we will add two numbers with the "value" system in TypeScript.
 ## Object property value type constraint
 ```ts
 type T = {something: number};
-const validT: T = {something: 1}; // valid
-const invalidA: T = {abc: 1}; // invalid: the "something" property is not found
-const invalidB: T = {something: "abc"}; // invalid: the property value is not a number
+// valid
+const validT: T = {something: 1}; 
+// invalid
+const invalidA: T = {abc: 1}; // "something" not found
+const invalidB: T = {something: "abc"}; // "abc" is not a number
 ```
 This defines a type T, which is an object that has a property called `something`, which is of type `number`.
 
@@ -18,12 +20,13 @@ This defines a type T, which is an object that has a property called `something`
 ```ts
 
 type AB = number | string;
-let a: AB = 1; // valid
-let b: AB = "hello"; // valid
-let c: AB = true; // invalid
+// valid
+let a: AB = 1;
+let b: AB = "hello";
+// invalid
+let c: AB = true; // expecting a number or a string, not a boolean
 
 ```
-This defines a type `AB` that can be either an `A` or a `B`.
 
 ## String Literal Types
 ```ts
@@ -31,12 +34,12 @@ type T = "a text";
 const a: T = "a text"; // valid
 const b: T = "something else"; // invalid: "something else" doesn't match the string literal type.
 ```
-"A type whose expected value is a string with textual contents equal to that of the string literal type."
+"A type whose expected value is a string with textual contents equal to that of the string literal type." ~ https://git.io/JerUY
 
 
-# Numbers Universe
+# Our Numbers System
 
-Our numbers are not decimals or binaries.  They're objects.  This is how we define our numbers:
+We define our numbers as natural numbers represented as objects:
 ```ts
 const zero = "zero";
 const one = {"prev": zero};
@@ -44,6 +47,13 @@ const two = {"prev": one};
 // or alternatively
 const two = {"prev": {"prev": "zero"}};
 ```
+
+And we want to define these functions that is defined for this universe:
+-`add`
+-`plus one`
+-`minus one` for positive numbers
+-`equality`
+
 
 ## Instructions
 
