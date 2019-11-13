@@ -1,33 +1,40 @@
-// Let's guarantee the results
-
+// Let's do types now.
 type Zero = "zero";
-type Pos = { prev: Num };
-type Num = Zero | Pos;
+
+// Hint: look at the definition of "one" in line 14.
+type Pos = {"prev": Num};
+
+// Hint: how did we define Numbers in the previous lab?
+type Num = Pos | Zero;
 
 const zero: Zero = "zero";
 
-// notice now that we have a two user-defined type guards
-const isPositive = (x: Num): x is Pos => x != zero;
-const isZero = (x: Num): x is Zero => x == zero;
+// One is the number after zero
+const one: Pos = { "prev": zero };
+const two: Pos = {"prev": one};
 
-const plus1 = (x: Num) => ({ prev: x });
-const minus1 = (x: Pos) => x.prev;
+const isZero = (x: Num): x is Zero => x === zero;
 
-// and we're using the type guard here
+const plus1 = (x: Num): Pos => ({"prev": x});
+const minus1 = (x: Pos): Num => x.prev;
+
+// "a + b = (a + 1) + (b - 1)"
+// "c + 0 = c"
 const add = (x: Num, y: Num): Num =>
-  isPositive(y) ? add(plus1(x), minus1(y)) : x;
+	isZero(y)? x : add(plus1(x), minus1(y));
 
-// also usimh type guards here (hover over minus1 parameters)
 const eq = (x: Num, y: Num): boolean =>
-  isZero(x) && isZero(y) ? true :
-    isZero(x) || isZero(y) ? false :
-      eq(minus1(x), minus1(y));
-      
-const one = plus1(zero);
-const two = { prev: one };
+	isZero(x) && isZero(y) ? true :
+		isZero(x) || isZero(y) ? false :
+			eq(minus1(x), minus1(y));
 
-const isOneEqualsOnePlusZero: boolean = eq(one, add(one, zero));
-const isTwoEqualsOnePlusOne: boolean = eq(two, add(one, one));
 
-console.log("isOneEqualsOnePlusZero", isOneEqualsOnePlusZero);
-console.log("isTwoEqualsOnePlusOne", isTwoEqualsOnePlusOne);
+const isOneEqualsOnePlusZero = eq(one, add(one, zero));
+console.log("one = one + zero", isOneEqualsOnePlusZero); // true?
+
+const isTwoEqualsOnePlusOne = eq(two, add(one, one));
+console.log("two = one + one", isTwoEqualsOnePlusOne); // true?
+
+const isThreeEqualsOnePlusOne = eq(add(one, two), add(one, one));
+console.log("three = one + one", isThreeEqualsOnePlusOne); // false?
+
