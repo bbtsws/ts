@@ -2,7 +2,7 @@
 type Zero = "zero";
 
 // Hint: look at the definition of "one" in line 14.
-type Pos = {"prev": Num};
+type Pos = {prev: Num};
 
 // Hint: how did we define Numbers in the previous lab?
 type Num = Pos | Zero;
@@ -10,12 +10,12 @@ type Num = Pos | Zero;
 const zero: Zero = "zero";
 
 // One is the number after zero
-const one: Pos = { "prev": zero };
-const two: Pos = {"prev": one};
+const one: Pos = {prev: zero };
+const two: Pos = {prev: one};
 
 const isZero = (x: Num): x is Zero => x === zero;
 
-const plus1 = (x: Num): Pos => ({"prev": x});
+const plus1 = (x: Num): Pos => ({prev: x});
 const minus1 = (x: Pos): Num => x.prev;
 
 // "a + b = (a + 1) + (b - 1)"
