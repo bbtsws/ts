@@ -29,7 +29,7 @@ In this workshop, you will:
 2. Write type definitions via interfaces.
 3. Push the limits of TypeScript by recursively defining an infinite set of type. 
 
-The first two sections build up to the activities in section three, and can be skipped by experienced users of TypeScript. Most users will never perform tasks like those in section three, so this is an purely an exercise in exploring TypeScript.
+The first two sections build up to the activities in section three, and can be skipped by experienced users of TypeScript. Most users will never perform tasks like those in section three, so this is a purely an exercise in exploring TypeScript.
 
 ## Sections
 ### 1. [Basics](section-1-primitives)
