@@ -21,13 +21,13 @@ The purpose of this workshop is to gain unique insight into TypeScript and how i
 
 **This is not a tutorial on TypeScript**.
 
-What you'll learn here is not practical in of itself. The goal for us today is to learn more about what TypeScript and understand what it is capable of.
+What you'll learn here is not practical in of itself. The goal for us today is to learn more about the TypeScript type system and understand what it is capable of.
 
 In this workshop, you will:
 
 1. Set basic variables with simple types.
 2. Write type definitions via interfaces.
-3. Push the limits of TypeScript by defining types with a recursive definition. 
+3. Push the limits of TypeScript by recursively defining an infinite set of type. 
 
 The first two sections build up to the activities in section three, and can be skipped by experienced users of TypeScript. Most users will never perform tasks like those in section three, so this is an purely an exercise in exploring TypeScript.
 
