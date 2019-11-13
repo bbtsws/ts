@@ -27,3 +27,14 @@ type Res2 = Equals<Plus1<Two>, Add<One, Two>>; // Two++ = One + Two
 // False
 type Res3 = Equals<Plus1<Two>, Add<One, One>>; // Two++ = One + One
 
+// let two: Add<One, One> = { prev: { prev: "zero" } };
+// two = { prev: "zero" };
+
+// let three: Add<Two, One> = { prev: { prev: { prev: "zero" } } };
+// three = "zero";
+
+// const one = two.prev;
+
+// const four: Add<Two, Two> = { prev: three };
+
+// const five: Add<Two, Plus1<Two>> = { prev: four };
