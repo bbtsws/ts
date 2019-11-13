@@ -14,12 +14,12 @@ But we are not allowed to use `+`, `-`, `*`, `/`, `**`, `<<`, or `>>`.
 
 ## [lab1 - adding two numbers with values](lab1)
 
-### What you'll learn
+### What you'll be working with
 - How to define a number using JS objects
 - How to add those two numbers in the world of values
 
 ## [lab2 - adding two numbers with types](lab2)
 
-### What you'll learn
+### What you'll be working with
 - How to define positive numbers, where each number has its own type
 - How to add two types
