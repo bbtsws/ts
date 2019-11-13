@@ -6,13 +6,13 @@ This section contains some labs for self guided experimenting with declarations 
 for how they are used.
 
 ## [Lab 1](lab1)
-### What you'll learn
-	- Union types
-	- Interfaces
-	- function definitions
+### What you'll be working with
+- Union types
+- Interfaces
+- function definitions
 
 ## [Lab 2](lab2)
-### What you'll learn
-	- Generics
-	- Interfaces
-	- function definitions
+### What you'll be working with
+- Generics
+- Interfaces
+- function definitions
