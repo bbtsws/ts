@@ -44,7 +44,7 @@ Now let's push the boundaries by creating a new universe of positive numbers and
 ## Presenters
 * [Albert Lash IV](https://github.com/albertlincoln)
 * Philip Cavaco
-* [Ricardo Le&oacute;n](https://www.linkedin.com/in/rleon)
+* [Ricardo Le&oacute;n](https://github.com/rmleon)
 
 __Special Thanks__
 Maxwell Heiber for inspiring this workshop with his awesome presentation of these same materials!
