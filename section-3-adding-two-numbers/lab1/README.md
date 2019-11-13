@@ -37,9 +37,9 @@ const b: T = "something else"; // invalid: "something else" doesn't match the st
 "A type whose expected value is a string with textual contents equal to that of the string literal type." ~ https://git.io/JerUY
 
 
-# Our Numbers System
+# Our Number System
 
-We define our numbers as natural numbers represented as objects:
+Our number set is that of positive integers and zero.  We represent them as objects:
 ```ts
 const zero = "zero";
 const one = {"prev": zero};
@@ -48,7 +48,7 @@ const two = {"prev": one};
 const two = {"prev": {"prev": "zero"}};
 ```
 
-And we want to define these functions that is defined for this universe:
+And we want to define these functions that is defined for this numbers set:
 - `add`
 - `plus one`
 - `minus one` for positive numbers
