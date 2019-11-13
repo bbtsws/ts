@@ -30,7 +30,10 @@ type Equals<T1, T2> =
 	false :
 	false;
 
-// Check the results.  Play with different numbers.
-type Res = Equals<Two, Add<One, One>>; // is it true?
-type Res1 = Equals<Plus1<Two>, Add<One, One>>; // is it false?
-type Res2 = Equals<Plus1<Two>, Add<One, Two>>; // is it true?
+// Check the results.  Play with different numbers
+// True
+type Res1 = Equals<Two, Add<One, One>>; // Two = One + One
+type Res2 = Equals<Plus1<Two>, Add<One, Two>>; // Two++ = One + Two
+
+// False
+type Res3 = Equals<Plus1<Two>, Add<One, One>>; // Two++ = One + One
